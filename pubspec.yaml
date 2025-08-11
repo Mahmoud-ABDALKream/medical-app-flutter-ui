@@ -1,0 +1,52 @@
+name: medical_app
+description: A comprehensive medical and healthcare Flutter application with modern UI design.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI and Material Design
+  cupertino_icons: ^1.0.2
+  
+  # State Management (if needed for future enhancements)
+  # provider: ^6.0.5
+  
+  # Navigation (if needed for complex routing)
+  # go_router: ^12.0.0
+  
+  # HTTP requests (for API integration)
+  # http: ^1.1.0
+  
+  # Local storage (for user preferences)
+  # shared_preferences: ^2.2.2
+  
+  # Date and time utilities
+  # intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets (add if you have images, fonts, etc.)
+  # assets:
+  #   - images/
+  #   - icons/
+
+  # Custom fonts (add if you want to use custom fonts)
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
+  #       - asset: fonts/Roboto-Bold.ttf
+  #         weight: 700
